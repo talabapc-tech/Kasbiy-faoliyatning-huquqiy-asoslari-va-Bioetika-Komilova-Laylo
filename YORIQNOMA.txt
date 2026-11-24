@@ -1,0 +1,23 @@
+"Kasbiy faoliyatning huquqiy asoslari va Bioetika" fani - Raqamli ta'lim resursi (RTR)
+Muallif: Komilova Laylo, Shahrisabz Abu Ali ibn Sino nomidagi jamoat salomatligi texnikumi
+Yo'nalishlar: 50910204 - Davolash ishi; 50910402 - Farmatsiya; 40910302 - Tibbiy profilaktika ishi (I semestr)
+
+KOMPYUTERDA ISHGA TUSHIRISH
+1. Butun "RTR_Huquq_Bioetika" papkasini kompyuter yoki fleshkaga ko'chiring.
+2. "index.html" faylini Google Chrome, Microsoft Edge yoki Firefox brauzerida oching.
+3. Internet talab qilinmaydi.
+
+TELEFONDA ISHGA TUSHIRISH (Android / iPhone)
+1. ZIP faylni telefonga yuklab oling va arxivdan chiqaring.
+2. Papkadagi "index.html" faylini brauzerda oching.
+
+FOYDALANISH
+- Bosh sahifada yo'nalishni tanlang: "Davolash ishi", "Farmatsiya" yoki "Tibbiy profilaktika".
+- Har bir mavzu ichida: Ma'ruza, Plakat, Test, Lug'at, Savol va Mashq bo'limlari mavjud.
+- Pastki panel: Mavzular, Testlar (30 savollik yakuniy test), Lug'at (qidiruv va kartochkalar), Natijalar.
+- 4 ta interaktiv trenajyor:
+  1) Bioetikaning 4 asosiy tamoyili (Bochamp-Childress);
+  2) Mehnat shartnomasi va sinov muddati tekshirgichi;
+  3) Tibbiyot xodimi ish vaqti va mehnat ta'tili kalkulyatori;
+  4) Intizomiy jazo va mehnat nizolari algoritmi.
+- Natijalar shu qurilmaning brauzerida saqlanadi.

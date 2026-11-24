@@ -1,0 +1,131 @@
+window.HUQ = {
+  ver: 1,
+  module: {
+    title: "Kasbiy faoliyatning huquqiy asoslari va Bioetika",
+    short: "Huquqiy asoslar va Bioetika",
+    author: "Komilova Laylo",
+    author_role: "Fan oʻqituvchisi",
+    org: "Shahrisabz Abu Ali ibn Sino nomidagi jamoat salomatligi texnikumi",
+    region: "Qashqadaryo viloyati",
+    year: "2026–2027 oʻquv yili",
+    semester: "I semestr",
+    language: "Oʻzbek tili"
+  },
+
+  /* Umumiy kontent bloklari: assets/topics/<id>.js */
+  blocks: {
+    t01: { short: "Mehnat huquqi predmeti",        color: "blue",   posters: [["p01_mehnat_huquqi_predmeti", "Mehnat huquqining predmeti va tizimi"]] },
+    t02: { short: "Tamoyillar va manbalar",        color: "indigo", posters: [["p02_tamoyillar_manbalar", "Mehnat huquqining tamoyillari va manbalari"]] },
+    t03: { short: "Bioetika taʼlimoti",            color: "teal",   posters: [["p03_bioetika_asoslari", "Bioetika taʼlimoti va 4 asosiy tamoyil"]], interactive: ["bioethics"] },
+    t04: { short: "Mehnatga oid munosabatlar",     color: "purple", posters: [["p04_huquqiy_munosabatlar", "Mehnatga oid huquqiy munosabatlar"]] },
+    t05: { short: "Mehnat shartnomasi",            color: "blue",   posters: [["p05_mehnat_shartnomasi", "Mehnat shartnomasi: mazmuni va tuzish"]], interactive: ["contract"] },
+    t06: { short: "Shartnomani oʻzgartirish",      color: "orange", posters: [["p06_shartnoma_ozgartirish", "Mehnat shartnomasini oʻzgartirish tartibi"]] },
+    t07: { short: "Shartnomani bekor qilish",      color: "red",    posters: [["p07_shartnoma_bekor", "Mehnat shartnomasini bekor qilish asoslari"]] },
+    t08: { short: "Shartnoma amaliyoti",           color: "green",  posters: [["p08_shartnoma_amaliyot", "Mehnat shartnomasi boʻyicha amaliyot"]], interactive: ["contract"] },
+    t09: { short: "Jamoa shartnomasi va kelishuvi",color: "indigo", posters: [["p09_jamoa_shartnomasi", "Jamoa shartnomasi va jamoa kelishuvi"]] },
+    t10: { short: "Ish vaqti",                     color: "teal",   posters: [["p10_ish_vaqti", "Ish vaqti va tibbiyot xodimlari meʼyori"]], interactive: ["worktime"] },
+    t11: { short: "Dam olish vaqti",               color: "green",  posters: [["p11_dam_olish_vaqti", "Dam olish vaqti turlari"]] },
+    t12: { short: "Mehnat taʼtillari",             color: "orange", posters: [["p12_mehnat_tatillari", "Mehnat taʼtillari va qoʻshimcha kafolatlar"]], interactive: ["worktime"] },
+    t13: { short: "Aholini ish bilan taʼminlash",  color: "blue",   posters: [["p13_bandlik", "Aholini ish bilan taʼminlash kafolatlari"]] },
+    t14: { short: "Mehnatga haq toʻlash",          color: "green",  posters: [["p14_mehnatga_haq", "Mehnatga haq toʻlash tizimi"]] },
+    t15: { short: "Kafolat va kompensatsiyalar",   color: "purple", posters: [["p15_kafolat_kompensatsiya", "Kafolatli va kompensatsiya toʻlovlari"]] },
+    t16: { short: "Mehnat intizomi va burchlar",   color: "red",    posters: [["p16_mehnat_intizomi", "Mehnat intizomi va tibbiyot xodimi burchi"]], interactive: ["dispute"] },
+    t17: { short: "Moddiy javobgarlik",            color: "orange", posters: [["p17_moddiy_javobgarlik", "Taraflarning moddiy javobgarligi"]] },
+    t18: { short: "Qoʻshimcha kafolat va imtiyoz", color: "pink",   posters: [["p18_imtiyozlar", "Ayrim toifa xodimlar uchun kafolatlar"]] },
+    t19: { short: "Mehnat nizolari",               color: "indigo", posters: [["p19_mehnat_nizolari", "Mehnat nizolarini hal qilish tartibi"]], interactive: ["dispute"] },
+    t20: { short: "Zamonaviy bioetika",            color: "teal",   posters: [["p20_zamonaviy_bioetika", "Nanotibbiyot, nanoetika va raqamli tibbiyot"]] }
+  },
+
+  /* Yo'nalishlar: KMR (kalendar -mavzu 1-kurs 26-27 laylo.xls) bo'yicha */
+  directions: {
+    d: {
+      name: "Davolash ishi",
+      code: "50910204",
+      groups: "110–111-guruhlar",
+      hours: { jami: 64, nazariy: 40, amaliy: 0, mustaqil: 24 },
+      topics: [
+        ["Mehnat huquqining predmeti", "N", ["t01"]],
+        ["Mehnat huquqining asosiy tamoyillari va manbalari", "N", ["t02"]],
+        ["Bioetika modulining asosiy vazifalari va bioetika taʼlimoti", "N", ["t03", "t20"]],
+        ["Mehnatga oid huquqiy munosabatlar", "N", ["t04"]],
+        ["Mehnat shartnomasi (kontrakt) tushunchasi, mazmuni, taraflari va tuzish tartibi", "N", ["t05"]],
+        ["Mehnat shartnomasini oʻzgartirish", "N", ["t06"]],
+        ["Mehnat shartnomasining bekor boʻlishi tushunchasi va tasnifi", "N", ["t07"]],
+        ["Jamoa shartnomasi", "N", ["t09"]],
+        ["Jamoa kelishuvi", "N", ["t09"]],
+        ["Ish vaqti", "N", ["t10"]],
+        ["Dam olish vaqti va mehnat taʼtillari", "N", ["t11", "t12"]],
+        ["Maxsus qism. Aholini ish bilan taʼminlash", "N", ["t13"]],
+        ["Aholini ish bilan taʼminlash: kafolatlar va bandlik xizmati", "N", ["t13"]],
+        ["Mehnatga haq toʻlash", "N", ["t14"]],
+        ["Kafolatli toʻlovlar va kompensatsiya toʻlovlari", "N", ["t15"]],
+        ["Mehnat intizomi. Tibbiyot xodimlarining burchlari va vazifalari", "N", ["t16"]],
+        ["Mehnat shartnomasi taraflarining moddiy javobgarligi", "N", ["t17"]],
+        ["Ayrim toifa xodimlarga beriladigan qoʻshimcha kafolat va imtiyozlar", "N", ["t18"]],
+        ["Mehnat nizolarini hal qilish tartibi (yakka mehnat nizolari)", "N", ["t19"]],
+        ["Mehnat nizolarini hal qilish tartibi (jamoaviy nizolar va sud tartibi)", "N", ["t19"]]
+      ]
+    },
+    f: {
+      name: "Farmatsiya",
+      code: "50910402",
+      groups: "112-guruh",
+      hours: { jami: 66, nazariy: 32, amaliy: 10, mustaqil: 24 },
+      topics: [
+        ["Mehnat huquqining predmeti", "N", ["t01"]],
+        ["Mehnat huquqining asosiy tamoyillari va manbalari", "N", ["t02"]],
+        ["Bioetika modulining asosiy vazifalari va bioetika taʼlimoti", "N", ["t03", "t20"]],
+        ["Mehnatga oid huquqiy munosabatlar", "N", ["t04"]],
+        ["Mehnat shartnomasi (kontrakt) tushunchasi, mazmuni, taraflari va tuzish tartibi", "N", ["t05"]],
+        ["Mehnat shartnomasini oʻzgartirish", "N", ["t06"]],
+        ["Mehnat shartnomasining bekor boʻlishi tushunchasi va tasnifi", "N", ["t07"]],
+        ["Mehnat shartnomasini tuzish, oʻzgartirish va bekor qilish", "A", ["t08"]],
+        ["Jamoa shartnomasi va jamoa kelishuvi", "N", ["t09"]],
+        ["Jamoa shartnomasi va jamoa kelishuvi (amaliy mashgʻulot)", "A", ["t09"]],
+        ["Ish vaqti", "N", ["t10"]],
+        ["Dam olish vaqti va mehnat taʼtillari", "N", ["t11", "t12"]],
+        ["Dam olish vaqti va mehnat taʼtillari (amaliy mashgʻulot)", "A", ["t12"]],
+        ["Maxsus qism. Aholini ish bilan taʼminlash", "N", ["t13"]],
+        ["Aholini ish bilan taʼminlash (amaliy mashgʻulot)", "A", ["t13"]],
+        ["Mehnatga haq toʻlash", "N", ["t14"]],
+        ["Kafolatli toʻlovlar va kompensatsiya toʻlovlari", "N", ["t15"]],
+        ["Mehnat intizomi. Tibbiyot xodimlarining burchlari va vazifalari", "N", ["t16"]],
+        ["Mehnat shartnomasi taraflarining moddiy javobgarligi", "N", ["t17"]],
+        ["Ayrim toifa xodimlarga beriladigan qoʻshimcha kafolat va imtiyozlar", "N", ["t18"]],
+        ["Mehnat nizolarini hal qilish tartibi", "A", ["t19"]]
+      ]
+    },
+    p: {
+      name: "Tibbiy profilaktika",
+      code: "40910302",
+      groups: "114-guruh",
+      hours: { jami: 72, nazariy: 36, amaliy: 12, mustaqil: 24 },
+      topics: [
+        ["Mehnat huquqining predmeti", "N", ["t01"]],
+        ["Mehnat huquqining asosiy tamoyillari va manbalari", "N", ["t02"]],
+        ["Bioetika modulining asosiy vazifalari va bioetika taʼlimoti", "N", ["t03", "t20"]],
+        ["Mehnatga oid huquqiy munosabatlar", "N", ["t04"]],
+        ["Mehnat shartnomasi (kontrakt) tushunchasi va mazmuni", "N", ["t05"]],
+        ["Mehnat shartnomasining taraflari va tuzish tartibi", "N", ["t05"]],
+        ["Mehnat shartnomasini oʻzgartirish", "N", ["t06"]],
+        ["Mehnat shartnomasining bekor boʻlishi tushunchasi va tasnifi", "N", ["t07"]],
+        ["Mehnat shartnomasini tuzish, oʻzgartirish va bekor qilish", "A", ["t08"]],
+        ["Jamoa shartnomasi va jamoa kelishuvi", "N", ["t09"]],
+        ["Jamoa shartnomasi va jamoa kelishuvi (amaliy mashgʻulot)", "A", ["t09"]],
+        ["Ish vaqti", "N", ["t10"]],
+        ["Dam olish vaqti", "N", ["t11"]],
+        ["Mehnat taʼtillari", "N", ["t12"]],
+        ["Dam olish vaqti va mehnat taʼtillari (amaliy mashgʻulot)", "A", ["t12"]],
+        ["Maxsus qism. Aholini ish bilan taʼminlash", "N", ["t13"]],
+        ["Aholini ish bilan taʼminlash (amaliy mashgʻulot)", "A", ["t13"]],
+        ["Mehnatga haq toʻlash", "N", ["t14"]],
+        ["Kafolatli toʻlovlar va kompensatsiya toʻlovlari", "N", ["t15"]],
+        ["Mehnat intizomi. Tibbiyot xodimlarining burchlari va vazifalari", "N", ["t16"]],
+        ["Mehnat shartnomasi taraflarining moddiy javobgarligi", "N", ["t17"]],
+        ["Ayrim toifa xodimlarga beriladigan qoʻshimcha kafolat va imtiyozlar", "N", ["t18"]],
+        ["Mehnat nizolarini hal qilish tartibi (1-qism)", "A", ["t19"]],
+        ["Mehnat nizolarini hal qilish tartibi (2-qism: vaziyatli masalalar)", "A", ["t19"]]
+      ]
+    }
+  }
+};
